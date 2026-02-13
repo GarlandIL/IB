@@ -1,0 +1,243 @@
+@import "tailwindcss";
+
+@theme {
+  /* African-inspired color palette */
+  --color-savanna: #D4A574;
+  --color-terra: #C84B31;
+  --color-baobab: #2D4263;
+  --color-sahel: #ECDBBA;
+  --color-midnight: #0B0C10;
+  --color-clay: #A0522D;
+  
+  /* Primary palette */
+  --color-primary: #C84B31;
+  --color-primary-dark: #A03825;
+  --color-primary-light: #E56B50;
+  
+  /* Accent colors */
+  --color-accent-green: #2D5F3F;
+  --color-accent-gold: #D4AF37;
+  --color-accent-blue: #4A7C8C;
+  
+  /* Semantic colors */
+  --color-success: #2D5F3F;
+  --color-warning: #D4A574;
+  --color-error: #C84B31;
+  --color-info: #4A7C8C;
+  
+  /* Typography */
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'Crimson Pro', serif;
+  
+  /* Spacing scale */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+  
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 20px;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.12);
+  --shadow-xl: 0 24px 48px rgba(0, 0, 0, 0.15);
+}
+
+@layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply font-body text-[18px] leading-[1.7] text-neutral-900 bg-neutral-50 antialiased overflow-x-hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold leading-tight text-neutral-900;
+  }
+
+  h1 {
+    @apply text-[clamp(2.5rem,5vw,4.5rem)] tracking-tight;
+  }
+
+  h2 {
+    @apply text-[clamp(2rem,4vw,3.5rem)] tracking-tight;
+  }
+
+  h3 {
+    @apply text-[clamp(1.5rem,3vw,2.25rem)];
+  }
+
+  h4 {
+    @apply text-[clamp(1.25rem,2vw,1.75rem)];
+  }
+
+  p {
+    @apply mb-4;
+  }
+
+  a {
+    @apply no-underline transition-colors duration-250;
+  }
+
+  button {
+    @apply font-display cursor-pointer border-none bg-none transition-all duration-250;
+  }
+
+  img {
+    @apply max-w-full h-auto block;
+  }
+
+  ::selection {
+    @apply bg-primary text-white;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-2.5 h-2.5;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-neutral-100;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-[5px];
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary-dark;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-350 mx-auto px-lg;
+  }
+
+  .container-narrow {
+    @apply max-w-225 mx-auto px-lg;
+  }
+
+  .text-gradient {
+    @apply bg-linear-to-r from-primary to-clay bg-clip-text text-transparent;
+  }
+
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/30;
+  }
+
+  /* Spinner animation */
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .spinner {
+    @apply w-12 h-12 border-4 border-neutral-200 border-t-primary rounded-full;
+    animation: spin 0.8s linear infinite;
+  }
+
+  /* Status badges */
+  .status-badge {
+    @apply inline-flex items-center gap-1 px-2 py-1 text-xs font-semibold rounded-full;
+  }
+
+  /* Filter chips */
+  .filter-chip {
+    @apply px-3 py-1.5 text-sm font-semibold bg-neutral-100 text-neutral-700 rounded-md transition-all duration-250 cursor-pointer;
+  }
+
+  .filter-chip:hover {
+    @apply bg-neutral-200;
+  }
+
+  .filter-chip.active {
+    @apply bg-primary text-white;
+  }
+
+  /* Animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease backwards;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.4s ease backwards;
+  }
+
+  .animate-slide-in-right {
+    animation: slideInRight 0.5s ease backwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.4s ease backwards;
+  }
+}
+
+@layer utilities {
+  /* Responsive */
+  @media (max-width: 768px) {
+    body {
+      @apply text-base;
+    }
+    
+    .container,
+    .container-narrow {
+      @apply px-md;
+    }
+  }
+}

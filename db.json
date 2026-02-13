@@ -1,0 +1,1388 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "email": "amara.okoro@example.com",
+      "phone": "+234-801-234-5678",
+      "type": "creator",
+      "subType": "startup",
+      "verified": true,
+      "emailVerified": true,
+      "phoneVerified": true,
+      "identityVerified": true,
+      "uniqueId": "KRN-CR-001234",
+      "identityDocuments": {
+        "governmentId": {
+          "type": "passport",
+          "number": "A12345678",
+          "verified": true,
+          "uploadedAt": "2024-11-01T10:00:00Z"
+        },
+        "businessRegistration": {
+          "type": "CAC",
+          "number": "RC123456",
+          "verified": true,
+          "uploadedAt": "2024-11-01T10:00:00Z"
+        },
+        "addressProof": {
+          "type": "utility_bill",
+          "verified": true,
+          "uploadedAt": "2024-11-01T10:00:00Z"
+        }
+      },
+      "profile": {
+        "fullName": "Amara Okoro",
+        "dateOfBirth": "1990-05-15",
+        "photo": "https://i.pravatar.cc/150?img=1",
+        "company": "AgroConnect",
+        "logo": "https://via.placeholder.com/100/22c55e/ffffff?text=AC",
+        "bio": "Passionate about connecting smallholder farmers to markets through technology. 8 years of experience in agricultural development and technology innovation across West Africa.",
+        "location": "Lagos, Nigeria",
+        "country": "Nigeria",
+        "city": "Lagos",
+        "website": "https://agroconnect.ng",
+        "socialMedia": {
+          "linkedin": "https://linkedin.com/in/amara-okoro",
+          "twitter": "https://twitter.com/amaraokoro",
+          "facebook": "https://facebook.com/agroconnectng"
+        },
+        "sector": "AgriTech",
+        "targetMarkets": [
+          "Nigeria",
+          "Ghana",
+          "Kenya",
+          "Senegal"
+        ],
+        "languages": [
+          "English",
+          "Yoruba",
+          "Igbo"
+        ],
+        "sdgs": [
+          1,
+          2,
+          8
+        ],
+        "fundingModel": [
+          "equity",
+          "revenue-share"
+        ],
+        "referees": [
+          {
+            "name": "Dr. John Adeleke",
+            "organization": "Lagos Business School",
+            "email": "j.adeleke@lbs.edu.ng",
+            "phone": "+234-801-111-2222"
+          }
+        ]
+      },
+      "onboardingCompleted": true,
+      "tutorialCompleted": true,
+      "createdAt": "2024-11-01T08:00:00Z"
+    },
+    {
+      "id": "user_002",
+      "email": "kwame.mensah@example.com",
+      "phone": "+233-244-567-890",
+      "type": "investor",
+      "subType": "angel",
+      "verified": true,
+      "emailVerified": true,
+      "phoneVerified": true,
+      "identityVerified": true,
+      "uniqueId": "KRN-INV-567890",
+      "identityDocuments": {
+        "governmentId": {
+          "type": "passport",
+          "number": "B98765432",
+          "verified": true,
+          "uploadedAt": "2024-10-15T10:00:00Z"
+        },
+        "accreditedInvestor": {
+          "verified": true,
+          "bankStatements": true,
+          "portfolioStatements": true,
+          "uploadedAt": "2024-10-15T10:00:00Z"
+        },
+        "professionalCredentials": {
+          "linkedin": "https://linkedin.com/in/kwame-mensah",
+          "verified": true
+        }
+      },
+      "profile": {
+        "fullName": "Kwame Mensah",
+        "dateOfBirth": "1982-08-22",
+        "photo": "https://i.pravatar.cc/150?img=12",
+        "organization": "West Africa Angels",
+        "logo": "https://via.placeholder.com/100/3b82f6/ffffff?text=WA",
+        "professionalTitle": "Managing Partner",
+        "bio": "Angel investor focused on early-stage tech startups in West Africa. 15+ years of experience in venture capital and startup mentorship. Portfolio includes 25+ successful exits.",
+        "location": "Accra, Ghana",
+        "country": "Ghana",
+        "city": "Accra",
+        "website": "https://waangels.com",
+        "socialMedia": {
+          "linkedin": "https://linkedin.com/in/kwame-mensah",
+          "twitter": "https://twitter.com/kwameinvests"
+        },
+        "teamSize": 8,
+        "investmentRange": [
+          10000,
+          100000
+        ],
+        "investmentStages": [
+          "pre-seed",
+          "seed"
+        ],
+        "sectors": [
+          "AgriTech",
+          "FinTech",
+          "EdTech"
+        ],
+        "countries": [
+          "Nigeria",
+          "Ghana",
+          "Kenya"
+        ],
+        "geographicFocus": "West Africa",
+        "urbanRuralFocus": "both",
+        "impactThemes": [
+          "financial inclusion",
+          "food security",
+          "youth employment"
+        ],
+        "investmentModels": [
+          "equity",
+          "convertible-debt"
+        ],
+        "sdgs": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "aum": 5000000
+      },
+      "onboardingCompleted": true,
+      "createdAt": "2024-10-15T08:00:00Z"
+    },
+    {
+      "id": "user_003",
+      "email": "zara.hassan@example.com",
+      "phone": "+254-712-345-678",
+      "type": "creator",
+      "subType": "sme",
+      "verified": true,
+      "emailVerified": true,
+      "phoneVerified": true,
+      "identityVerified": true,
+      "uniqueId": "KRN-CR-002468",
+      "identityDocuments": {
+        "governmentId": {
+          "type": "national_id",
+          "number": "12345678",
+          "verified": true,
+          "uploadedAt": "2024-10-20T10:00:00Z"
+        },
+        "businessRegistration": {
+          "type": "business_permit",
+          "number": "BP987654",
+          "verified": true,
+          "uploadedAt": "2024-10-20T10:00:00Z"
+        }
+      },
+      "profile": {
+        "fullName": "Zara Hassan",
+        "dateOfBirth": "1988-03-10",
+        "photo": "https://i.pravatar.cc/150?img=5",
+        "company": "EduBright",
+        "logo": "https://via.placeholder.com/100/f59e0b/ffffff?text=EB",
+        "bio": "Transforming education through affordable digital learning solutions. Former teacher with 10 years of classroom experience turned edtech entrepreneur.",
+        "location": "Nairobi, Kenya",
+        "country": "Kenya",
+        "city": "Nairobi",
+        "website": "https://edubright.ke",
+        "socialMedia": {
+          "linkedin": "https://linkedin.com/in/zara-hassan",
+          "twitter": "https://twitter.com/edubrightke"
+        },
+        "sector": "EdTech",
+        "targetMarkets": [
+          "Kenya",
+          "Uganda",
+          "Tanzania"
+        ],
+        "languages": [
+          "English",
+          "Swahili"
+        ],
+        "sdgs": [
+          4,
+          5,
+          10
+        ],
+        "fundingModel": [
+          "equity",
+          "grant"
+        ]
+      },
+      "onboardingCompleted": true,
+      "tutorialCompleted": true,
+      "createdAt": "2024-10-20T08:00:00Z"
+    },
+    {
+      "id": "user_004",
+      "email": "investment@impactvc.com",
+      "phone": "+27-21-555-0123",
+      "type": "investor",
+      "subType": "vc",
+      "verified": true,
+      "emailVerified": true,
+      "phoneVerified": true,
+      "identityVerified": true,
+      "uniqueId": "KRN-INV-135790",
+      "identityDocuments": {
+        "fundDocumentation": {
+          "verified": true,
+          "regulatoryCompliance": true,
+          "investmentCommittee": true,
+          "uploadedAt": "2024-09-01T10:00:00Z"
+        }
+      },
+      "profile": {
+        "fullName": "David Nkosi",
+        "dateOfBirth": "1975-11-30",
+        "photo": "https://i.pravatar.cc/150?img=33",
+        "organization": "Impact Ventures Africa",
+        "logo": "https://via.placeholder.com/100/8b5cf6/ffffff?text=IV",
+        "professionalTitle": "Managing Director",
+        "bio": "Leading VC fund investing in scalable impact-driven businesses across Africa. 20+ years of investment experience with a track record of supporting 100+ startups.",
+        "location": "Cape Town, South Africa",
+        "country": "South Africa",
+        "city": "Cape Town",
+        "website": "https://impactvc.africa",
+        "socialMedia": {
+          "linkedin": "https://linkedin.com/company/impact-ventures-africa",
+          "twitter": "https://twitter.com/impactvcafrica"
+        },
+        "teamSize": 25,
+        "investmentRange": [
+          250000,
+          2000000
+        ],
+        "investmentStages": [
+          "seed",
+          "series-a",
+          "growth"
+        ],
+        "sectors": [
+          "HealthTech",
+          "FinTech",
+          "CleanTech"
+        ],
+        "countries": [
+          "South Africa",
+          "Nigeria",
+          "Kenya",
+          "Rwanda"
+        ],
+        "geographicFocus": "Pan-African",
+        "urbanRuralFocus": "both",
+        "impactThemes": [
+          "healthcare access",
+          "climate action",
+          "financial inclusion"
+        ],
+        "investmentModels": [
+          "equity"
+        ],
+        "sdgs": [
+          3,
+          7,
+          8,
+          9,
+          13
+        ],
+        "aum": 150000000,
+        "portfolioCompanies": 45,
+        "trackRecord": "15 exits, 3x average return"
+      },
+      "onboardingCompleted": true,
+      "createdAt": "2024-09-01T08:00:00Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_001",
+      "creatorId": "user_001",
+      "status": "live",
+      "createdAt": "2024-11-15T08:30:00Z",
+      "updatedAt": "2025-02-10T10:00:00Z",
+      "elevatorPitch": {
+        "tagline": "Connecting 5 million smallholder farmers to profitable markets",
+        "caption": "Empowering African farmers with technology to increase income by 40%",
+        "problem": "70% of African farmers lack access to fair markets, losing 40% of income to middlemen",
+        "solution": "Mobile-first marketplace with AI-powered price transparency and direct buyer connections",
+        "traction": "15,000 farmers, $2M in transactions, 35% income increase",
+        "funding": 150000,
+        "video": "https://example.com/video1.mp4",
+        "images": [
+          "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=800",
+          "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800"
+        ]
+      },
+      "detailedPitch": {
+        "problemDeepDive": {
+          "marketResearch": "According to the African Development Bank, smallholder farmers produce 80% of Africa's food supply but capture only 30% of the value chain. Our primary research across 5 countries shows that farmers lose an average of 40% of potential income to intermediaries.",
+          "painPoints": [
+            "Lack of market price information leads to exploitation",
+            "Limited direct access to buyers and processors",
+            "Post-harvest losses due to delayed sales (30% average)",
+            "No credit history or financial inclusion"
+          ],
+          "currentSolutions": "Traditional middlemen systems, informal markets, limited government procurement programs",
+          "marketTiming": "Mobile penetration in rural Africa reached 65% in 2024, creating the perfect window for digital agriculture solutions"
+        },
+        "solutionDetails": {
+          "technicalSpecs": "React Native mobile app with offline-first architecture, SMS fallback for feature phones, AI price prediction using historical data and market trends",
+          "proprietaryTech": "Proprietary ML algorithm for crop quality assessment using smartphone cameras (patent pending)",
+          "competitiveAdvantages": [
+            "Offline-first technology works in low-connectivity areas",
+            "Local language support (12 African languages)",
+            "Integration with mobile money for instant payments",
+            "AI-powered quality verification reduces disputes"
+          ],
+          "ipStatus": "Patent pending for image-based crop quality assessment. Trademark registered in 5 countries.",
+          "barriers": "Network effects, local language content, partnerships with farmer cooperatives"
+        },
+        "market": {
+          "tam": "45B",
+          "tamSource": "African agricultural market size - FAO 2024",
+          "sam": "12B",
+          "som": "500M",
+          "currentRevenue": 250000,
+          "userGrowth": "45% MoM",
+          "keyPartnerships": [
+            "Ministry of Agriculture - Nigeria",
+            "Farmer Cooperative Alliance - 500k members",
+            "Mobile Money Provider - MTN"
+          ],
+          "pilotsAndLOIs": "15 signed LOIs with agricultural processors, 3 active pilot programs"
+        },
+        "businessModel": {
+          "description": "Commission-based: 2.5% per transaction + premium analytics subscription",
+          "revenueStreams": [
+            {
+              "stream": "Transaction fees",
+              "percentage": 60,
+              "description": "2.5% commission on all sales"
+            },
+            {
+              "stream": "Premium subscriptions",
+              "percentage": 25,
+              "description": "$5/month for market analytics and insights"
+            },
+            {
+              "stream": "Enterprise solutions",
+              "percentage": 15,
+              "description": "White-label solutions for cooperatives"
+            }
+          ],
+          "pricingStrategy": "Freemium model with transaction fees. Free for first $1000 in sales, then 2.5% commission",
+          "unitEconomics": {
+            "cac": 8,
+            "ltv": 240,
+            "ltvCacRatio": 30,
+            "paybackPeriod": "3 months"
+          },
+          "scalabilityPlan": "Expand to 3 new countries in 2025, partnership model with local cooperatives for distribution",
+          "competitiveMoat": "Network effects, local partnerships, proprietary AI technology, brand trust in rural communities"
+        },
+        "fundingBreakdown": {
+          "totalAmount": 150000,
+          "allocations": [
+            {
+              "category": "Technology Development",
+              "amount": 60000,
+              "percentage": 40,
+              "justification": "AI enhancement, offline capabilities, feature phone integration"
+            },
+            {
+              "category": "Marketing & User Acquisition",
+              "amount": 45000,
+              "percentage": 30,
+              "justification": "Farmer education programs, radio advertising, cooperative partnerships"
+            },
+            {
+              "category": "Operations & Logistics",
+              "amount": 30000,
+              "percentage": 20,
+              "justification": "Field agents, customer support, quality control"
+            },
+            {
+              "category": "Team Expansion",
+              "amount": 15000,
+              "percentage": 10,
+              "justification": "Hire 2 developers, 1 operations manager, sales team"
+            }
+          ]
+        },
+        "milestones": [
+          {
+            "milestone": "Reach 50,000 farmers by Q2 2025",
+            "timeline": "6 months",
+            "kpi": "Active users",
+            "target": 50000
+          },
+          {
+            "milestone": "Expand to 3 new countries (Ghana, Kenya, Senegal)",
+            "timeline": "9 months",
+            "kpi": "Geographic presence",
+            "target": 3
+          },
+          {
+            "milestone": "Achieve $10M in annual transactions",
+            "timeline": "12 months",
+            "kpi": "GMV",
+            "target": 10000000
+          },
+          {
+            "milestone": "Break-even on unit economics",
+            "timeline": "15 months",
+            "kpi": "Contribution margin",
+            "target": 0
+          }
+        ],
+        "risks": [
+          {
+            "risk": "Low smartphone adoption in rural areas",
+            "mitigation": "SMS fallback, partnership with feature phone manufacturers, agent-assisted model"
+          },
+          {
+            "risk": "Farmer trust and adoption challenges",
+            "mitigation": "Cooperative partnerships, local language support, field agent network, success stories"
+          },
+          {
+            "risk": "Competition from established players",
+            "mitigation": "Focus on underserved regions, superior technology, better unit economics"
+          }
+        ],
+        "team": [
+          {
+            "name": "Amara Okoro",
+            "role": "CEO & Founder",
+            "bio": "Ex-Microsoft engineer with 8 years in agricultural development. Built scalable solutions serving 2M+ users. MEng from University of Lagos.",
+            "linkedin": "https://linkedin.com/in/amara-okoro",
+            "education": "MEng Computer Science, University of Lagos",
+            "relevantExperience": "8 years at Microsoft, led agritech initiatives across West Africa"
+          },
+          {
+            "name": "Chidi Okafor",
+            "role": "CTO",
+            "bio": "Former tech lead at Andela, built scalable platforms for 5M+ users. Expertise in mobile-first architecture and AI/ML.",
+            "linkedin": "https://linkedin.com/in/chidi-okafor",
+            "education": "BSc Computer Science, Covenant University",
+            "relevantExperience": "6 years at Andela, built platforms used by 5M+ users"
+          },
+          {
+            "name": "Dr. Ngozi Eze",
+            "role": "Head of Partnerships",
+            "bio": "Former Ministry of Agriculture advisor with deep cooperative network. PhD in Agricultural Economics.",
+            "linkedin": "https://linkedin.com/in/ngozi-eze",
+            "education": "PhD Agricultural Economics, University of Ibadan",
+            "relevantExperience": "15 years in agricultural policy and farmer cooperatives"
+          }
+        ],
+        "advisors": [
+          {
+            "name": "Prof. Kofi Annan Jr.",
+            "expertise": "Agricultural development",
+            "contribution": "Strategy and regional expansion advice"
+          },
+          {
+            "name": "Sarah Chen",
+            "expertise": "Fintech and mobile payments",
+            "contribution": "Payment integration and financial inclusion strategy"
+          }
+        ],
+        "hiringPlan": [
+          {
+            "role": "Senior Backend Engineer",
+            "timeline": "Month 2",
+            "justification": "Scale infrastructure for 50k+ users"
+          },
+          {
+            "role": "Regional Sales Manager - Ghana",
+            "timeline": "Month 4",
+            "justification": "Lead Ghana market expansion"
+          },
+          {
+            "role": "Product Designer",
+            "timeline": "Month 6",
+            "justification": "Improve UX for low-literacy users"
+          }
+        ],
+        "impact": {
+          "theoryOfChange": "By providing farmers with price transparency and direct market access, we eliminate exploitative middlemen, increase farmer income by 40%, reduce post-harvest losses, and improve food security.",
+          "sdgTargets": [
+            {
+              "sdg": 1,
+              "target": "1.2 - Reduce poverty by half",
+              "contribution": "Increase farmer income, lifting 50,000 farmers above poverty line"
+            },
+            {
+              "sdg": 2,
+              "target": "2.3 - Double agricultural productivity",
+              "contribution": "Reduce post-harvest losses by 30%, optimize planting decisions"
+            },
+            {
+              "sdg": 8,
+              "target": "8.3 - Promote job creation",
+              "contribution": "Create 500 direct jobs (agents, support staff), enable 15,000 farmers to scale"
+            }
+          ],
+          "impactMetrics": [
+            {
+              "metric": "Farmers lifted out of poverty",
+              "baseline": 0,
+              "target": 50000,
+              "timeline": "24 months"
+            },
+            {
+              "metric": "Average income increase",
+              "baseline": 0,
+              "target": 40,
+              "unit": "percentage",
+              "timeline": "12 months"
+            },
+            {
+              "metric": "Reduction in post-harvest losses",
+              "baseline": 30,
+              "target": 10,
+              "unit": "percentage",
+              "timeline": "18 months"
+            },
+            {
+              "metric": "Tons of food waste prevented",
+              "baseline": 0,
+              "target": 50000,
+              "timeline": "24 months"
+            }
+          ],
+          "reportingFramework": "Quarterly impact reports using IRIS+ metrics, annual third-party verification, real-time dashboard for investors"
+        }
+      },
+      "supportingDocuments": [
+        {
+          "type": "pitch_deck",
+          "filename": "AgroConnect_PitchDeck_v2.pdf",
+          "uploadedAt": "2024-11-15T09:00:00Z",
+          "url": "https://example.com/docs/proj_001/pitch_deck.pdf"
+        },
+        {
+          "type": "financial_model",
+          "filename": "AgroConnect_Financial_Model.xlsx",
+          "uploadedAt": "2024-11-15T09:15:00Z",
+          "url": "https://example.com/docs/proj_001/financial_model.xlsx"
+        },
+        {
+          "type": "product_demo",
+          "filename": "Product_Demo_Video.mp4",
+          "uploadedAt": "2024-11-15T09:30:00Z",
+          "url": "https://example.com/docs/proj_001/demo.mp4"
+        },
+        {
+          "type": "market_validation",
+          "filename": "Farmer_Survey_Results.pdf",
+          "uploadedAt": "2024-11-15T10:00:00Z",
+          "url": "https://example.com/docs/proj_001/survey.pdf"
+        }
+      ],
+      "qualityScore": {
+        "contentCompleteness": 38,
+        "clarityAndCommunication": 28,
+        "marketValidation": 18,
+        "financialViability": 9,
+        "total": 93,
+        "peerReviewScore": 4.5,
+        "expertReviewScore": 4.7,
+        "communityUpvotes": 127
+      },
+      "peerFeedback": [
+        {
+          "reviewerId": "user_003",
+          "rating": 5,
+          "comment": "Excellent execution on addressing a real problem. The offline-first approach is brilliant for rural connectivity challenges.",
+          "helpful": 23,
+          "createdAt": "2024-11-20T14:30:00Z"
+        }
+      ],
+      "metrics": {
+        "views": 1247,
+        "uniqueViews": 892,
+        "bookmarks": 34,
+        "ndaRequests": 12,
+        "qualityScore": 93,
+        "engagementRate": 12.8,
+        "averageTimeOnPage": 420
+      },
+      "sector": "AgriTech",
+      "location": "Nigeria",
+      "sdgs": [
+        1,
+        2,
+        8
+      ],
+      "fundingModel": "equity",
+      "fundingStage": "seed",
+      "investmentModels": [
+        "equity",
+        "revenue-share"
+      ]
+    },
+    {
+      "id": "proj_002",
+      "creatorId": "user_003",
+      "status": "live",
+      "createdAt": "2024-12-03T14:20:00Z",
+      "updatedAt": "2025-02-09T11:00:00Z",
+      "elevatorPitch": {
+        "tagline": "Making quality education accessible to 10 million African students",
+        "caption": "Bridging the education gap with offline-first learning technology",
+        "problem": "85% of students in rural Africa lack access to quality learning materials and qualified teachers",
+        "solution": "Offline-first learning platform with AI tutors and localized content in 12 African languages",
+        "traction": "50,000 students across Kenya, Uganda, Tanzania. 78% improvement in test scores",
+        "funding": 300000,
+        "video": "https://example.com/video2.mp4",
+        "images": [
+          "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800",
+          "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800"
+        ]
+      },
+      "detailedPitch": {
+        "problemDeepDive": {
+          "marketResearch": "UNESCO reports that 258 million children in Africa are out of school. Of those in school, 70% do not achieve minimum proficiency levels due to poor teaching quality and lack of resources.",
+          "painPoints": [
+            "Teacher shortage - 1:60 teacher-student ratio vs 1:25 recommended",
+            "No internet connectivity in 85% of rural schools",
+            "Content not localized for African contexts and languages",
+            "Cost barriers - $300/year average school fees"
+          ],
+          "currentSolutions": "Traditional textbooks (outdated, expensive), government schools (overcrowded, underfunded)",
+          "marketTiming": "COVID-19 accelerated digital learning adoption; governments investing $2B in edtech infrastructure"
+        },
+        "solutionDetails": {
+          "technicalSpecs": "Progressive Web App with offline-first architecture, content syncs when connected, works on low-end Android devices (Android 5+), average app size 50MB",
+          "proprietaryTech": "Adaptive learning AI that personalizes content based on student performance, works offline using on-device ML",
+          "competitiveAdvantages": [
+            "Works completely offline - no internet required",
+            "Content in 12 African languages with cultural context",
+            "Gamified learning increases engagement by 85%",
+            "Affordable - $2/month vs $25/month for competitors"
+          ],
+          "ipStatus": "Proprietary adaptive learning algorithm, partnerships with content publishers secured",
+          "barriers": "Content library of 10,000+ lessons, partnerships with 500+ schools, brand recognition in 3 countries"
+        },
+        "market": {
+          "tam": "8B",
+          "tamSource": "African edtech market - HolonIQ 2024",
+          "sam": "2.4B",
+          "som": "250M",
+          "currentRevenue": 120000,
+          "userGrowth": "38% MoM",
+          "keyPartnerships": [
+            "Ministry of Education - Kenya (MOU signed)",
+            "Ministry of Education - Uganda (Pilot program)",
+            "Save the Children - Distribution partnership"
+          ],
+          "pilotsAndLOIs": "3 government pilot programs, 5 NGO partnerships, 15 school district MOUs"
+        },
+        "businessModel": {
+          "description": "Freemium: Basic free, Premium $2/month, School licenses $500/year",
+          "revenueStreams": [
+            {
+              "stream": "Premium subscriptions",
+              "percentage": 45,
+              "description": "$2/month individual subscriptions"
+            },
+            {
+              "stream": "School licenses",
+              "percentage": 40,
+              "description": "$500/year for unlimited school access"
+            },
+            {
+              "stream": "Content licensing",
+              "percentage": 15,
+              "description": "License content to other platforms and governments"
+            }
+          ],
+          "pricingStrategy": "Affordable pricing for mass market - less than cost of one textbook per year",
+          "unitEconomics": {
+            "cac": 3,
+            "ltv": 72,
+            "ltvCacRatio": 24,
+            "paybackPeriod": "2 months"
+          },
+          "scalabilityPlan": "Government partnerships for rapid scale, NGO distribution channels, local language content creation network",
+          "competitiveMoat": "Network effects from student data, government relationships, localized content library, offline technology"
+        },
+        "fundingBreakdown": {
+          "totalAmount": 300000,
+          "allocations": [
+            {
+              "category": "Content Development",
+              "amount": 105000,
+              "percentage": 35,
+              "justification": "Create 5,000 new lessons, translate to 9 additional languages, cultural adaptation"
+            },
+            {
+              "category": "Technology Development",
+              "amount": 90000,
+              "percentage": 30,
+              "justification": "Enhanced AI tutor, feature phone support, improved offline sync"
+            },
+            {
+              "category": "Marketing & User Acquisition",
+              "amount": 75000,
+              "percentage": 25,
+              "justification": "Government relations, school partnerships, parent education campaigns"
+            },
+            {
+              "category": "Team Expansion",
+              "amount": 30000,
+              "percentage": 10,
+              "justification": "Hire content creators, regional managers, customer success team"
+            }
+          ]
+        },
+        "milestones": [
+          {
+            "milestone": "1 million students by end of 2025",
+            "timeline": "12 months",
+            "kpi": "Active users",
+            "target": 1000000
+          },
+          {
+            "milestone": "Partnership with 5 ministries of education",
+            "timeline": "9 months",
+            "kpi": "Government partnerships",
+            "target": 5
+          },
+          {
+            "milestone": "Launch in 5 additional countries",
+            "timeline": "15 months",
+            "kpi": "Geographic expansion",
+            "target": 5
+          },
+          {
+            "milestone": "Achieve profitability",
+            "timeline": "18 months",
+            "kpi": "Monthly recurring revenue",
+            "target": 100000
+          }
+        ],
+        "risks": [
+          {
+            "risk": "Government bureaucracy slowing partnerships",
+            "mitigation": "Multi-channel strategy: direct-to-consumer, NGO partnerships, private schools"
+          },
+          {
+            "risk": "Device access barriers",
+            "mitigation": "Tablet lending programs, feature phone version, shared device model"
+          },
+          {
+            "risk": "Content quality and accuracy concerns",
+            "mitigation": "Expert review board, partnership with Cambridge Assessment, continuous testing"
+          }
+        ],
+        "team": [
+          {
+            "name": "Zara Hassan",
+            "role": "CEO & Founder",
+            "bio": "Former education minister advisor, MEd from Cambridge. 10 years of teaching experience in rural Kenya, built curriculum used by 200+ schools.",
+            "linkedin": "https://linkedin.com/in/zara-hassan",
+            "education": "MEd Education, University of Cambridge",
+            "relevantExperience": "10 years teaching, 5 years education policy"
+          },
+          {
+            "name": "Joseph Kimani",
+            "role": "Head of Content",
+            "bio": "20 years teaching experience, developed curriculum for 200+ schools. Expert in African education systems.",
+            "linkedin": "https://linkedin.com/in/joseph-kimani",
+            "education": "BEd Secondary Education, Kenyatta University",
+            "relevantExperience": "20 years curriculum development and teacher training"
+          },
+          {
+            "name": "Michael Omondi",
+            "role": "CTO",
+            "bio": "Former software engineer at Google, built offline-first applications for emerging markets. MIT Computer Science graduate.",
+            "linkedin": "https://linkedin.com/in/michael-omondi",
+            "education": "BS Computer Science, MIT",
+            "relevantExperience": "8 years building scalable education technology"
+          }
+        ],
+        "advisors": [
+          {
+            "name": "Dr. Wanjiru Kamau",
+            "expertise": "Education policy",
+            "contribution": "Government partnership strategy and policy navigation"
+          }
+        ],
+        "hiringPlan": [
+          {
+            "role": "Content Creator - Mathematics",
+            "timeline": "Month 1",
+            "justification": "Expand math curriculum to cover grades 7-12"
+          },
+          {
+            "role": "Regional Manager - Uganda",
+            "timeline": "Month 3",
+            "justification": "Lead expansion into Uganda market"
+          }
+        ],
+        "impact": {
+          "theoryOfChange": "By providing free, high-quality, offline educational content in local languages, we eliminate barriers to learning, improve educational outcomes, and enable social mobility for millions of African children.",
+          "sdgTargets": [
+            {
+              "sdg": 4,
+              "target": "4.1 - Quality primary and secondary education",
+              "contribution": "Provide free quality education to 1M students, 78% test score improvement"
+            },
+            {
+              "sdg": 5,
+              "target": "5.B - Enhance use of enabling technology",
+              "contribution": "60% of users are girls, special focus on girls' education"
+            },
+            {
+              "sdg": 10,
+              "target": "10.2 - Empower and promote inclusion",
+              "contribution": "Target rural and low-income students, reduce education inequality"
+            }
+          ],
+          "impactMetrics": [
+            {
+              "metric": "Students with improved learning outcomes",
+              "baseline": 50000,
+              "target": 1000000,
+              "timeline": "24 months"
+            },
+            {
+              "metric": "Average test score improvement",
+              "baseline": 0,
+              "target": 78,
+              "unit": "percentage",
+              "timeline": "6 months per cohort"
+            },
+            {
+              "metric": "Girls enrolled in STEM subjects",
+              "baseline": 15000,
+              "target": 400000,
+              "timeline": "24 months"
+            }
+          ],
+          "reportingFramework": "Align with UN SDG 4 indicators, quarterly impact assessments, partnership with UNESCO for evaluation"
+        }
+      },
+      "supportingDocuments": [
+        {
+          "type": "pitch_deck",
+          "filename": "EduBright_PitchDeck.pdf",
+          "uploadedAt": "2024-12-03T15:00:00Z",
+          "url": "https://example.com/docs/proj_002/pitch_deck.pdf"
+        },
+        {
+          "type": "financial_model",
+          "filename": "EduBright_Financials.xlsx",
+          "uploadedAt": "2024-12-03T15:30:00Z",
+          "url": "https://example.com/docs/proj_002/financials.xlsx"
+        }
+      ],
+      "qualityScore": {
+        "contentCompleteness": 40,
+        "clarityAndCommunication": 29,
+        "marketValidation": 19,
+        "financialViability": 10,
+        "total": 98,
+        "peerReviewScore": 4.8,
+        "expertReviewScore": 4.9,
+        "communityUpvotes": 156
+      },
+      "peerFeedback": [],
+      "metrics": {
+        "views": 892,
+        "uniqueViews": 654,
+        "bookmarks": 28,
+        "ndaRequests": 9,
+        "qualityScore": 98,
+        "engagementRate": 14.2,
+        "averageTimeOnPage": 380
+      },
+      "sector": "EdTech",
+      "location": "Kenya",
+      "sdgs": [
+        4,
+        5,
+        10
+      ],
+      "fundingModel": "equity",
+      "fundingStage": "seed",
+      "investmentModels": [
+        "equity",
+        "grant"
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_001",
+      "projectId": "proj_001",
+      "investorId": "user_002",
+      "creatorId": "user_001",
+      "status": "active",
+      "ndaSigned": true,
+      "createdAt": "2025-02-08T10:00:00Z",
+      "updatedAt": "2025-02-09T09:00:00Z",
+      "messages": [
+        {
+          "id": "msg_001",
+          "senderId": "user_002",
+          "senderName": "Kwame Mensah",
+          "timestamp": "2025-02-08T10:30:00Z",
+          "content": "Hi Amara, I'm impressed by your traction. Can we schedule a call to discuss your go-to-market strategy?",
+          "read": true,
+          "attachments": []
+        },
+        {
+          "id": "msg_002",
+          "senderId": "user_001",
+          "senderName": "Amara Okoro",
+          "timestamp": "2025-02-08T14:15:00Z",
+          "content": "Absolutely! I'd love to share more details. I'm available Tuesday or Thursday next week. What works for you?",
+          "read": true,
+          "attachments": []
+        },
+        {
+          "id": "msg_003",
+          "senderId": "user_002",
+          "senderName": "Kwame Mensah",
+          "timestamp": "2025-02-09T09:00:00Z",
+          "content": "Thursday at 2pm WAT works perfectly. I'll send a calendar invite.",
+          "read": false,
+          "attachments": []
+        }
+      ],
+      "meetings": [
+        {
+          "id": "meet_001",
+          "scheduledFor": "2025-02-13T14:00:00Z",
+          "duration": 60,
+          "title": "Go-to-Market Strategy Discussion",
+          "agenda": "Review expansion plans, discuss unit economics, explore partnership opportunities",
+          "meetingLink": "https://meet.example.com/agro-kwame-001",
+          "status": "scheduled"
+        }
+      ],
+      "sharedDocuments": [
+        {
+          "id": "doc_001",
+          "name": "Updated Financial Projections Q1 2025",
+          "uploadedBy": "user_001",
+          "uploadedAt": "2025-02-08T16:00:00Z",
+          "url": "https://example.com/shared/doc_001.pdf"
+        }
+      ]
+    },
+    {
+      "id": "conv_002",
+      "projectId": "proj_002",
+      "investorId": "user_004",
+      "creatorId": "user_003",
+      "status": "active",
+      "ndaSigned": true,
+      "createdAt": "2025-02-07T11:00:00Z",
+      "updatedAt": "2025-02-07T16:45:00Z",
+      "messages": [
+        {
+          "id": "msg_004",
+          "senderId": "user_004",
+          "senderName": "David Nkosi",
+          "timestamp": "2025-02-07T11:20:00Z",
+          "content": "Hello Zara, your offline-first approach is innovative. What's your plan for content localization?",
+          "read": true,
+          "attachments": []
+        },
+        {
+          "id": "msg_005",
+          "senderId": "user_003",
+          "senderName": "Zara Hassan",
+          "timestamp": "2025-02-07T16:45:00Z",
+          "content": "Thanks David! We're working with local educators in each region to ensure cultural relevance. We've already localized content in Swahili, Hausa, and Yoruba with 9 more languages in progress.",
+          "read": true,
+          "attachments": [
+            {
+              "name": "Localization_Strategy.pdf",
+              "url": "https://example.com/attachments/localization.pdf",
+              "type": "application/pdf",
+              "size": 245000
+            }
+          ]
+        }
+      ],
+      "meetings": [],
+      "sharedDocuments": []
+    },
+    {
+      "id": "conv_1770852078330",
+      "projectId": "proj_002",
+      "creatorId": "user_003",
+      "investorId": "user_002",
+      "status": "active",
+      "ndaSigned": false,
+      "messages": [],
+      "lastMessage": null,
+      "lastMessageAt": "2026-02-11T23:21:18.330Z",
+      "unreadCount": 0,
+      "createdAt": "2026-02-11T23:21:18.330Z",
+      "updatedAt": "2026-02-11T23:21:18.330Z",
+      "meetings": [],
+      "sharedDocuments": []
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "bm_002",
+      "investorId": "user_002",
+      "projectId": "proj_002",
+      "createdAt": "2025-02-06T09:15:00Z",
+      "notes": "Interesting edtech model. Check regulatory requirements.",
+      "tags": [
+        "edtech",
+        "high-potential",
+        "government-partnerships"
+      ]
+    },
+    {
+      "id": "bm_003",
+      "investorId": "user_004",
+      "projectId": "proj_002",
+      "createdAt": "2025-02-04T11:30:00Z",
+      "notes": "Potential investment. Schedule due diligence.",
+      "tags": [
+        "due-diligence",
+        "series-a-candidate"
+      ]
+    },
+    {
+      "id": "bm_001",
+      "investorId": "user_002",
+      "projectId": "proj_001",
+      "createdAt": "2025-02-10T17:28:23.278Z",
+      "notes": "Strong founder, proven traction. Consider for seed round.",
+      "tags": [
+        "agritech",
+        "seed-ready",
+        "nigeria"
+      ]
+    }
+  ],
+  "ndaRequests": [
+    {
+      "id": "nda_001",
+      "investorId": "user_002",
+      "projectId": "proj_001",
+      "status": "signed",
+      "requestedAt": "2025-02-05T14:25:00Z",
+      "signedAt": "2025-02-05T14:30:00Z",
+      "ndaText": "This Non-Disclosure Agreement is entered into by and between the Creator and Investor for the purpose of protecting confidential information shared during the investment evaluation process.",
+      "ipAddress": "102.89.23.45",
+      "version": "1.0"
+    },
+    {
+      "id": "nda_002",
+      "investorId": "user_004",
+      "projectId": "proj_002",
+      "status": "signed",
+      "requestedAt": "2025-02-04T11:35:00Z",
+      "signedAt": "2025-02-04T12:00:00Z",
+      "ndaText": "This Non-Disclosure Agreement is entered into by and between the Creator and Investor for the purpose of protecting confidential information shared during the investment evaluation process.",
+      "ipAddress": "197.85.133.9",
+      "version": "1.0"
+    },
+    {
+      "id": "nda_1770822747299",
+      "investorId": "user_002",
+      "projectId": "proj_002",
+      "status": "signed",
+      "requestedAt": "2026-02-11T15:12:27.299Z",
+      "signedAt": "2026-02-11T15:12:27.299Z"
+    },
+    {
+      "id": "nda_1770822754616",
+      "investorId": "user_002",
+      "projectId": "proj_002",
+      "status": "signed",
+      "requestedAt": "2026-02-11T15:12:34.616Z",
+      "signedAt": "2026-02-11T15:12:34.616Z"
+    },
+    {
+      "id": "nda_1770822974332",
+      "investorId": "user_002",
+      "projectId": "proj_002",
+      "status": "signed",
+      "requestedAt": "2026-02-11T15:16:14.332Z",
+      "signedAt": "2026-02-11T15:16:14.332Z"
+    }
+  ],
+  "investments": [
+    {
+      "id": "inv_001",
+      "investorId": "user_002",
+      "projectId": "proj_001",
+      "type": "soft_commitment",
+      "amount": 50000,
+      "status": "committed",
+      "committedAt": "2025-02-10T15:00:00Z",
+      "terms": {
+        "investmentType": "equity",
+        "equityPercentage": 5,
+        "valuation": 1000000,
+        "vestingPeriod": 48,
+        "boardSeat": false
+      },
+      "milestones": [
+        {
+          "description": "Reach 25,000 farmers",
+          "amount": 25000,
+          "status": "pending"
+        },
+        {
+          "description": "Expand to Ghana",
+          "amount": 25000,
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "contracts": [
+    {
+      "id": "contract_001",
+      "type": "term_sheet",
+      "investmentId": "inv_001",
+      "createdAt": "2025-02-10T16:00:00Z",
+      "status": "draft",
+      "parties": {
+        "investor": "user_002",
+        "creator": "user_001"
+      },
+      "terms": {
+        "investmentAmount": 50000,
+        "equityPercentage": 5,
+        "valuation": 1000000,
+        "boardSeat": false,
+        "protectiveProvisions": true,
+        "liquidationPreference": "1x non-participating"
+      },
+      "signatures": [],
+      "version": 1
+    }
+  ],
+  "sectors": [
+    {
+      "id": "agritech",
+      "name": "AgriTech",
+      "icon": "🌾",
+      "description": "Agricultural technology and food systems innovation"
+    },
+    {
+      "id": "fintech",
+      "name": "FinTech",
+      "icon": "💰",
+      "description": "Financial technology and digital payments"
+    },
+    {
+      "id": "healthtech",
+      "name": "HealthTech",
+      "icon": "🏥",
+      "description": "Healthcare technology and medical innovation"
+    },
+    {
+      "id": "edtech",
+      "name": "EdTech",
+      "icon": "📚",
+      "description": "Education technology and learning platforms"
+    },
+    {
+      "id": "cleantech",
+      "name": "CleanTech",
+      "icon": "♻️",
+      "description": "Clean energy and environmental sustainability"
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-Commerce",
+      "icon": "🛒",
+      "description": "Online retail and marketplace platforms"
+    },
+    {
+      "id": "logistics",
+      "name": "Logistics",
+      "icon": "🚚",
+      "description": "Supply chain and delivery solutions"
+    },
+    {
+      "id": "proptech",
+      "name": "PropTech",
+      "icon": "🏠",
+      "description": "Property and real estate technology"
+    }
+  ],
+  "sdgs": [
+    {
+      "id": "1",
+      "name": "No Poverty",
+      "color": "#E5243B",
+      "description": "End poverty in all its forms everywhere"
+    },
+    {
+      "id": "2",
+      "name": "Zero Hunger",
+      "color": "#DDA63A",
+      "description": "End hunger, achieve food security and improved nutrition"
+    },
+    {
+      "id": "3",
+      "name": "Good Health",
+      "color": "#4C9F38",
+      "description": "Ensure healthy lives and promote well-being"
+    },
+    {
+      "id": "4",
+      "name": "Quality Education",
+      "color": "#C5192D",
+      "description": "Ensure inclusive and equitable quality education"
+    },
+    {
+      "id": "5",
+      "name": "Gender Equality",
+      "color": "#FF3A21",
+      "description": "Achieve gender equality and empower all women and girls"
+    },
+    {
+      "id": "7",
+      "name": "Clean Energy",
+      "color": "#FCC30B",
+      "description": "Ensure access to affordable, reliable, sustainable energy"
+    },
+    {
+      "id": "8",
+      "name": "Decent Work",
+      "color": "#A21942",
+      "description": "Promote sustained, inclusive economic growth and decent work"
+    },
+    {
+      "id": "9",
+      "name": "Innovation",
+      "color": "#FD6925",
+      "description": "Build resilient infrastructure, promote innovation"
+    },
+    {
+      "id": "10",
+      "name": "Reduced Inequalities",
+      "color": "#DD1367",
+      "description": "Reduce inequality within and among countries"
+    },
+    {
+      "id": "13",
+      "name": "Climate Action",
+      "color": "#3F7E44",
+      "description": "Take urgent action to combat climate change"
+    }
+  ],
+  "learningResources": [
+    {
+      "id": "res_001",
+      "title": "How to Create a Winning Pitch Deck",
+      "type": "video",
+      "category": "pitch_preparation",
+      "duration": 1200,
+      "thumbnail": "https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=400",
+      "url": "https://example.com/resources/pitch-deck-guide.mp4",
+      "description": "Learn the essential elements of a compelling pitch deck that captures investor attention"
+    },
+    {
+      "id": "res_002",
+      "title": "Understanding Investment Terms",
+      "type": "article",
+      "category": "investment_basics",
+      "readTime": 15,
+      "url": "https://example.com/resources/investment-terms",
+      "description": "A comprehensive guide to equity, convertible debt, and other investment structures"
+    },
+    {
+      "id": "res_003",
+      "title": "Building Financial Projections",
+      "type": "template",
+      "category": "financial_planning",
+      "url": "https://example.com/resources/financial-template.xlsx",
+      "description": "Downloadable Excel template for creating realistic 3-year financial projections"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_001",
+      "userId": "user_001",
+      "type": "nda_signed",
+      "title": "New NDA Signed",
+      "message": "Kwame Mensah has signed the NDA for AgroConnect",
+      "read": false,
+      "createdAt": "2025-02-05T14:30:00Z",
+      "link": "/creator/messages?conversation=conv_001"
+    },
+    {
+      "id": "notif_002",
+      "userId": "user_001",
+      "type": "new_message",
+      "title": "New Message",
+      "message": "You have a new message from Kwame Mensah",
+      "read": false,
+      "createdAt": "2025-02-09T09:00:00Z",
+      "link": "/creator/messages?conversation=conv_001"
+    },
+    {
+      "id": "notif_003",
+      "userId": "user_002",
+      "type": "bookmark_milestone",
+      "title": "Milestone Alert",
+      "message": "AgroConnect reached 20,000 farmers - 80% of their Q2 milestone",
+      "read": true,
+      "createdAt": "2025-02-08T12:00:00Z",
+      "link": "/projects/proj_001"
+    }
+  ],
+  "platformSettings": {
+    "siteName": "InnovateBridge",
+    "tagline": "Connecting African Innovation with Global Capital",
+    "mission": "To bridge the gap between visionary African creators and impact-driven investors, fostering sustainable economic growth and social development across the continent.",
+    "vision": "A thriving African innovation ecosystem where every groundbreaking idea has access to the capital and support needed to create meaningful impact.",
+    "contactEmail": "hello@innovatebridge.com",
+    "socialMedia": {
+      "twitter": "https://twitter.com/innovatebridge",
+      "linkedin": "https://linkedin.com/company/innovatebridge",
+      "facebook": "https://facebook.com/innovatebridge"
+    },
+    "partnerLogos": [
+      {
+        "name": "African Development Bank",
+        "logo": "https://via.placeholder.com/150/0066CC/ffffff?text=AfDB"
+      },
+      {
+        "name": "Tony Elumelu Foundation",
+        "logo": "https://via.placeholder.com/150/E31E24/ffffff?text=TEF"
+      },
+      {
+        "name": "Seedstars",
+        "logo": "https://via.placeholder.com/150/00A651/ffffff?text=Seedstars"
+      }
+    ]
+  }
+}
